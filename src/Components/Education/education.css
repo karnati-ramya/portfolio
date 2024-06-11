@@ -91,6 +91,6 @@ ul.timeline>li:before {
 
 @media (max-width: 960px) {
     .education-container {
-        padding: 80px;
+        padding: 0px 10px 120px 10px;
     }
 }

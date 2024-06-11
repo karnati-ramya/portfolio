@@ -78,6 +78,7 @@
 
     .project-description {
         -webkit-line-clamp: unset;
+        height: 100%;
     }
 
 }

@@ -15,7 +15,7 @@
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 0px 0px 80px 0px;
+    padding: 0px 10px 80px 10px;
     gap: 16px;
     color: #f0f8ff;
 }
@@ -92,7 +92,6 @@
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    /* background: #2ed3db; */
     background: #3f9cb9;
     background: linear-gradient(225deg, #3f9cb9 0%, #076885 100%);
     box-shadow: 20px 20px 60px #1F2634,

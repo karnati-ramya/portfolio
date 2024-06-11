@@ -70,7 +70,7 @@ export const projects: IProjects[] = [
     ],
     projectName: "PIR Hub",
     description: `A comprehensive web application, streamlining the entire project lifecycle by integrating diverse processes and 8 
-DPR Construction applications into a centralized, one-stop solution`,
+DPR Construction applications into a centralized, one-stop solution.`,
   },
   {
     id: 1,
@@ -166,7 +166,7 @@ export const experiences: IDetails[] = [
       ` Proficient in Git version control ensuring efficient collaboration and code management.`,
       `Well-versed with project management tools such as Azure DevOps (ADO) and Jira for seamless communication, task 
     tracking, and efficient project management throughout the development process.`,
-      `Collaborated closely with cross-functional teams, facilitating effective communication to ensure seamless`,
+      `Collaborated closely with cross-functional teams, facilitating effective communication to ensure seamless integration and functionality.`,
     ],
   },
 ];
