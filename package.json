@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://karnati-ramya.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -15,6 +16,7 @@
     "@types/node": "^16.18.83",
     "@types/react": "^18.2.59",
     "@types/react-dom": "^18.2.19",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
