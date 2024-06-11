@@ -1,0 +1,126 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.contact-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 0px 0px 80px 0px;
+    gap: 16px;
+    color: #f0f8ff;
+}
+
+.contact-title {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #f0f8ff;
+}
+
+.contact-subtitle {
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    line-height: 26px;
+    opacity: 70%;
+}
+
+.contact-form {
+    width: 95%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #062033;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    margin-top: 28px;
+    gap: 12px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.form-label {
+    font-size: 18px;
+    color: #f0f8ff;
+    font-weight: 600;
+}
+
+.form-input {
+    background-color: transparent;
+    border: 1px solid #bfc7d2;
+    outline: none;
+    font-size: 18px;
+    color: #f0f8ff;
+    border-radius: 12px;
+    padding: 12px 16px;
+
+}
+
+.form-input:focus {
+    border: 1px solid #06a2e5;
+}
+
+.form-textarea {
+    resize: vertical;
+}
+
+.send-button {
+    width: 100%;
+    text-align: center;
+    padding: 13px 16px;
+    margin-top: 2px;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out !important;
+    /* background: #2ed3db; */
+    background: #3f9cb9;
+    background: linear-gradient(225deg, #3f9cb9 0%, #076885 100%);
+    box-shadow: 20px 20px 60px #1F2634,
+        -20px -20px 60px #1F2634;
+}
+
+.send-button:hover {
+    box-shadow: 20px 20px 60px #1F2634;
+    filter: brightness(1);
+}
+
+@media (max-width: 640px) {
+    .send-button {
+        padding: 12px 0;
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .contact-title {
+        margin-top: 12px;
+        font-size: 32px;
+    }
+
+    .contact-subtitle {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+}
